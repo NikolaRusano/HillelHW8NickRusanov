@@ -17,7 +17,7 @@ public class Banana extends Fruit{
 
     @Override
     public void makeJuice() {
-        System.out.println("The banana juice are making now, please add some water");;
+        System.out.println("The banana juice are making now, please add some water");
     }
 
 }

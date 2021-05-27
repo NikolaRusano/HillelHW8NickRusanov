@@ -2,7 +2,7 @@ package Task1;
 
 public class Orange extends Fruit{
     int calories;
-    public void peelBanana(){
+    public void peelOrange(){
         System.out.println("The orange has been peeled");
     }
     public void cutFruit(){
@@ -19,6 +19,6 @@ public class Orange extends Fruit{
 
     @Override
     public void makeJuice() {
-        System.out.println("The orange juice are making now");;
+        System.out.println("The orange juice are making now");
     }
 }

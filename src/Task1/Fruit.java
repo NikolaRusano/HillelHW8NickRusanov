@@ -14,4 +14,5 @@ public class Fruit {
     public void makeJuice(){
         System.out.println("The juice have been done");
     }
+
 }

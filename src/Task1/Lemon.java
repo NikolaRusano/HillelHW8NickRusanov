@@ -2,7 +2,7 @@ package Task1;
 
 public class Lemon extends Fruit{
     int calories;
-    public void peelBanana(){
+    public void peelLemon(){
         System.out.println("The lemon has been peeled");
     }
     public void cutFruit(){
