@@ -15,7 +15,7 @@ public class TasteTester {
             choise = scanner.nextInt();
             if (choise == 1){
                 System.out.println("What taste do you prefer birthday cake:");
-                birthdayCake.setTaste(scanner.nextLine());
+                birthdayCake.setTaste(scanner.next());
                 System.out.println("What price  do you prefer birthday cake:");
                 birthdayCake.setPrice(scanner.nextDouble());
                 System.out.println("What quantity of candles do you want:");
@@ -26,7 +26,7 @@ public class TasteTester {
                         "\n with " + birthdayCake.getCandles() + " candles");
             }if (choise == 2){
                 System.out.println("What taste do you prefer wedding cake:");
-                weddingCake.setTaste(scanner.nextLine());
+                weddingCake.setTaste(scanner.next());
                 System.out.println("What price  do you prefer wedding cake:");
                 weddingCake.setPrice(scanner.nextDouble());
                 System.out.println("What quantity of tiers do you want:");
